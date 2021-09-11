@@ -5,6 +5,10 @@ $text-color: #fff;
 $text-other: #8D0A30;
 $color-transparent: rgba(141, 10, 48, 0.8);
 
+#logo{
+    color: red;
+}
+
 #scorefightsNav{
     background-color: $color-back;
     ul{
@@ -26,6 +30,12 @@ $color-transparent: rgba(141, 10, 48, 0.8);
         }
     }
 }
+
+// .navbar-toggler-icon{
+//     color:white;
+//     background-color: white;
+    
+// }
 
 .nav-scorefights{
     color: red;
