@@ -1,0 +1,65 @@
+$color-back: #2C2C2B;
+$color-nav: #4C4C3D;
+$color-nav-hover: #6c7a86;
+$text-color: #fff;
+$text-other: #8D0A30;
+$color-transparent: rgba(141, 10, 48, 0.8);
+
+#scorefightsNav{
+    background-color: $color-back;
+    ul{
+        li:hover{
+            background-color: $color-nav-hover;
+            cursor: pointer;
+            color: $text-other;
+            a{
+                color: $text-other;
+                font-weight: bold;
+            }
+        }
+        li{
+            background-color: $color-back;
+            a{
+                color: white;
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+.nav-scorefights{
+    color: red;
+    font-weight: bold;
+}
+
+.carousel-text{
+    background-color: $color-transparent;
+}
+
+body{
+    background-color: $color-back;
+}
+
+#news{
+    color: white;
+    h2{
+        color: white;
+    }
+    .news-item:hover{
+        background-color: $color-nav-hover;
+        color: $text-other;
+        cursor: pointer;
+        h2{
+            color: $text-other;
+        }
+    }
+    .news-item{
+        border-bottom: 2px solid black;
+    }
+}
+
+.footer{
+    height: 200px;
+    background-color: black;
+}
+

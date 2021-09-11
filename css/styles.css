@@ -1,0 +1,41 @@
+#scorefightsNav {
+  background-color: #2C2C2B; }
+  #scorefightsNav ul li:hover {
+    background-color: #6c7a86;
+    cursor: pointer;
+    color: #8D0A30; }
+    #scorefightsNav ul li:hover a {
+      color: #8D0A30;
+      font-weight: bold; }
+  #scorefightsNav ul li {
+    background-color: #2C2C2B; }
+    #scorefightsNav ul li a {
+      color: white;
+      font-size: 24px; }
+
+.nav-scorefights {
+  color: red;
+  font-weight: bold; }
+
+.carousel-text {
+  background-color: rgba(141, 10, 48, 0.8); }
+
+body {
+  background-color: #2C2C2B; }
+
+#news {
+  color: white; }
+  #news h2 {
+    color: white; }
+  #news .news-item:hover {
+    background-color: #6c7a86;
+    color: #8D0A30;
+    cursor: pointer; }
+    #news .news-item:hover h2 {
+      color: #8D0A30; }
+  #news .news-item {
+    border-bottom: 2px solid black; }
+
+.footer {
+  height: 200px;
+  background-color: black; }
